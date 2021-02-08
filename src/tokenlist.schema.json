@@ -310,5 +310,41 @@
     "timestamp",
     "version",
     "tokens"
-  ]
+  ],
+  "x-examples": {
+    "example-1": {
+      "name": "My Token List",
+      "timestamp": "2019-08-24T14:15:22Z",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+      },
+      "tokens": [
+        {
+          "chainId": 1,
+          "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "decimals": 18,
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "logoURI": "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM",
+          "tags": "stablecoin",
+          "extensions": {
+            "color": "#000000",
+            "is_verified_by_me": true
+          }
+        }
+      ],
+      "keywords": [
+        "compound"
+      ],
+      "tags": {
+        "stablecoin": {
+          "name": "Stablecoin",
+          "description": "A token with value pegged to another asset"
+        }
+      },
+      "logoURI": "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM"
+    }
+  }
 }
